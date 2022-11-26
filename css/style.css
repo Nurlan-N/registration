@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45 67 127);
+}
+form{
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(253, 252, 251, 0.505);
+
+}
+.all,.register{
+    background-image: url(/photos/2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 5rem;
+}
+.all .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.page-1 h1{
+    background-color: aliceblue;
+    margin-top: 2rem;
+    width: 20%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 1rem;
+}
+.page-1 .right i{
+    font-size: 50px;
+    color: #fff;
+}
+.page-1 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left h1{
+    width: 100%;
+}
